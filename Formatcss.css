@@ -1,0 +1,220 @@
+body{
+	background: linear-gradient(45deg, #2d0f65, #f77656 25%, #061a46 50%);
+}
+                              /* starting header part of css styling*/
+.section-heading{
+	display: flex;
+}
+.heading{
+	padding-left: 7rem;
+    font-size: larger;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.heading-image img
+{
+	width: 100px;
+    height: auto;
+}
+.search-bar input{
+        background-color: white;
+         
+           color: blue;
+           border: 2px solid red;
+           border-radius: 8px;
+           margin-top: 10px;
+           padding-right: 45px;
+        }
+ button{
+        margin-left: -7px;
+        margin-bottom: 10px;
+        color: red;
+        background-color: black;
+     
+       } 
+
+.heading-search{
+	padding-left: 40rem;
+	padding-top: 1.5rem;
+}
+.search-bel{
+	padding-top: 2rem;
+	padding-left: 2rem;
+
+}
+.my-image-header{
+    height: 3rem;
+    width: 3rem;
+    margin: auto;
+    margin-top: 3vh;
+}
+.my-image-header img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        border: 1px solid white;
+}
+                            /* completed header part of css styling*/
+                             /* starting  body  part 1 of css styling*/
+.info-about-singer
+{
+	    background: #04125a;
+    height: 23rem;
+    width: 60rem;
+    display: flex;
+}
+.singer-img img{
+	    width: 17.4rem;
+    height: 23rem;
+}
+.singer-detail{
+	        padding-left: 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 5px #00ff37;
+    color: #08ff6b;
+    cursor: pointer;
+}    
+.singer-detail:hover{
+	 color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.similar-artist img{
+	    width: 5rem;
+    height: 5rem;
+}
+.singer{
+	    padding-top: 3rem;
+    padding-left: 2rem;
+}
+.similar-artist-details {
+	    display: inline-block;
+    padding-left: 0.5rem;
+    letter-spacing: 2px;
+    font-family: emoji;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.similar-artist-dropdown{
+	    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.similar-artist-dropdown li{
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.similar-artist-dropdown li:hover{
+    color: yellowgreen;
+    background-color: black;
+    text-shadow: 2px 2px 5px red;
+}
+#link1{
+	display: none;
+}
+.similar-artist-dropdown:hover #link1 {
+  display: block;
+}
+.singer{
+	display: flex;
+}
+.similar-artist{
+	display: flex;
+	padding-left: 3rem;
+	padding-top: 0.5rem;
+}
+.heading-artist{
+padding-left: 2.5rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    text-shadow: 2px 2px 5px red;
+    margin: unset;
+} 
+.buttom-play{
+	width: 7rem;
+	background:  linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}       
+                            /* completed body  part 1 of css styling*/
+                            /*footer of the body */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background:  linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+   color: white;
+   text-align: center;
+}
+.footer-image img{
+    width: 3rem;
+    padding-top: 0.5rem;
+    display: table-row-group;
+    padding-left: 4.5rem;
+    padding-bottom: 0.5rem;
+}
+.footer-detail{
+    width: 16rem;
+    font-family: emoji;
+    letter-spacing: 0.1rem;
+     cursor: grab;
+}
+.footer-detail:hover{
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.footer-music{
+   padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+ audio{
+    width: 50rem;
+}
+.footer-image{
+    display: flex;
+}
+                                 /*footer of the body completed */
+                                 /* starting of bady part 1*/
+
+.body-part1{
+	padding-top: 3rem;
+}
+.music-box{
+    padding-left: 4rem;
+}
+.music-box-info-img img{
+    width: 3rem;
+    height: 3rem;
+}
+.music-box-info-img{
+    display: flex;
+}
+.fa-heart{
+    padding-left: 40rem;
+    padding-top: 1rem;
+    cursor: grab;
+}
+.fa-heart:hover{
+    color: white;
+}
+.fa-plus{
+	padding-left: 1rem;
+	padding-top: 1rem;
+    cursor: grab;
+}
+.fa-plus:hover{
+	color: white;
+}
+.music-box-info-detail {
+    padding-left: 1rem;
+    letter-spacing: 2px;
+    font-family: emoji;
+  cursor: grab;
+}
+.music-box-info-detail:hover {
+   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

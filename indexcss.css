@@ -1,0 +1,640 @@
+
+body{
+	background: linear-gradient(45deg, #2d0f65, #f77656 25%, #061a46 50%);
+}
+.whole-body{
+    display: flex;
+    width: 100%;
+}
+.main-body{
+    width: 65%;
+}
+.aside-block{
+    width: 26%;
+    margin-left: 20px;
+}
+
+                     /* starting header part of css styling*/
+.section-heading{
+	display: flex;
+}
+.heading{
+	padding-left: 7rem;
+    font-size: larger;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.heading-image img
+{
+	width: 100px;
+    height: auto;
+     cursor: grab;
+}
+.search-bar input{
+        background-color: white;
+         
+           color: blue;
+           border: 2px solid red;
+           border-radius: 8px;
+           margin-top: 10px;
+           padding-right: 45px;
+        }
+ button{
+        margin-left: -7px;
+        margin-bottom: 10px;
+        color: red;
+        background-color: black;
+     
+       } 
+
+.heading-search{
+	padding-left: 40rem;
+	padding-top: 1.5rem;
+}
+.search-bel{
+	padding-top: 2rem;
+	padding-left: 2rem;
+     cursor: grab;
+
+}
+.my-image-header{
+    height: 3rem;
+    width: 3rem;
+    margin: auto;
+    margin-top: 3vh;
+}
+.my-image-header img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        border: 1px solid white;
+         cursor: grab;
+}
+                            /* completed header part of css styling*/
+                            /*starting first body part of css styling*/
+
+.body-part1{
+	display: flex;
+}
+.first-image img{
+	 width: 20vw;
+    height: 35vh;
+    padding-top: 5rem;
+    padding-left: 3rem;
+     cursor: grab;
+
+}   
+.second-image img{
+	 width: 20vw;
+    height: 35vh;
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+     cursor: grab;
+}   
+.thrid-image img{
+	 width: 20vw;
+    height: 35vh;
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+     cursor: grab;
+}                      
+.fourth-image img{
+   width: 20vw;
+    height: 35vh;
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+     cursor: grab;
+}
+                                 /*completed first body part of css styling*/
+                                   /*starting second body part of css styling*/
+.heading-body-part2{
+	    padding-left: 3.5rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    padding-top: 3.5rem;
+   text-shadow: 2px 2px 5px red;
+}                                   
+.body-part2-1song-img1 img{
+	    width: 10vw;
+    height: 17vh;
+    padding-top: 1rem;
+    padding-left: 3.5rem;
+     cursor: grab;
+}
+.body-part2-1song-img1{
+	display: flex;
+}
+.body-part2-song-dropdown{
+	    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.body-part2-song-dropdown li{
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.body-part2-song-dropdown li:hover{
+    color: yellowgreen;
+    background-color: black;
+    text-shadow: 2px 2px 5px red;
+}
+#link1{
+	display: none;
+}
+.body-part2-song-dropdown:hover #link1 {
+  display: block;
+}
+.body-part2-2song-img2 img{
+	 width: 10vw;
+    height: 17vh;
+    padding-top: 1rem;
+    padding-left: 12rem;
+     cursor: grab;
+}
+.body-part2-2song-img2{
+	display: flex;
+}
+.body-part2-3song-img3 img{
+	 width: 10vw;
+    height: 17vh;
+    padding-top: 1rem;
+    padding-left: 3.5rem;
+     cursor: grab;
+}
+.body-part2-3song-img3{
+	display: flex;
+}
+.body-part2-4song-img4 img{
+	 width: 10vw;
+    height: 17vh;
+    padding-top: 1rem;
+    padding-left: 10rem;
+     cursor: grab;
+}
+.body-part2-4song-img4{
+	display: flex;
+}
+.body-part2-5song-img5 img{
+	 width: 10vw;
+    height: 17vh;
+    padding-top: 1rem;
+    padding-left: 3.5rem;
+     cursor: grab;
+}
+.body-part2-5song-img5{
+	display: flex;
+}
+.body-part2-6song-img6 img{
+	 width: 10vw;
+    height: 17vh;
+    padding-top: 1rem;
+    padding-left: 12rem;
+     cursor: grab;
+}
+.body-part2-6song-img6{
+	display: flex;
+}
+.body-part2-1{
+	display: flex;
+}
+.body-part2-2{
+	display: flex;
+}
+.body-part2-3{
+	display: flex;
+}
+
+.body-part2-song-detail {
+	    display: inline-block;
+    padding-left: 0.5rem;
+    margin: auto;
+    letter-spacing: 2px;
+    font-family: emoji;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  cursor: grab;
+}
+                       /*completed second body part of css styling*/
+                       /*starting third  body part of css styling*/
+.heading-body-part3{
+	padding-left: 3.5rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    padding-top: 3.5rem;
+   text-shadow: 2px 2px 5px red;
+}
+.heading-body-part3-img1 img {
+      width: 7rem;
+    height: 7rem;
+    padding-left: 5rem;
+    border-radius: 50%;
+     cursor: grab;
+  
+}
+.heading-body-part3-img2 img {
+      width: 7rem;
+    height: 7rem;
+    padding-left: 2rem;
+     border-radius: 50%;
+      cursor: grab;
+}
+.heading-body-part3-img3 img {
+      width: 7rem;
+    height: 7rem;
+    padding-left: 2rem;
+     border-radius: 50%;
+      cursor: grab;
+}
+.heading-body-part3-img4 img {
+      width: 7rem;
+    height: 7rem;
+    padding-left: 2rem;
+     border-radius: 50%;
+      cursor: grab;
+}
+.heading-body-part3-img5 img {
+      width: 7rem;
+    height: 7rem;
+       padding-left: 5rem;
+    margin-top: 14px;
+     border-radius: 50%;
+      cursor: grab;
+}
+.heading-body-part3-img6 img {
+      width: 7rem;
+    height: 7rem;
+        padding-left: 5rem;
+    margin-top: 14px;
+     border-radius: 50%;
+      cursor: grab;
+}
+.heading-body-part3-img7 img {
+      width: 7rem;
+    height: 7rem;
+        padding-left: 5rem;
+    margin-top: 14px;
+     border-radius: 50%;
+      cursor: grab;
+}
+.body-part3-inner{
+	display: flex;
+    flex-wrap: wrap;
+}
+                      /*completed third  body part of css styling*/
+                      /*starting fourth  body part of css styling*/
+.body-part4-img1 img{
+	    width: 9rem;
+    height: 7rem;
+    padding-left: 4rem;
+    padding-top: 3rem;
+     border-radius: 50%;
+      cursor: grab;
+}                      
+.body-part4-img2 img{
+	    width: 9rem;
+    height: 7rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+     border-radius: 50%;
+      cursor: grab;
+}           
+.body-part4-img3 img{
+	    width: 9rem;
+    height: 7rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+     border-radius: 50%;
+      cursor: grab;
+}           
+.body-part4-img4 img{
+	    width: 9rem;
+    height: 7rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+     border-radius: 50%;
+      cursor: grab;
+}           
+.body-part4-img5 img{
+	    width: 9rem;
+    height: 7rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+     border-radius: 50%;
+      cursor: grab;
+}           
+.body-part4-img6 img{
+	    width: 9rem;
+    height: 7rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+     border-radius: 50%;
+      cursor: grab;
+}           
+.body-part4-img7 img{
+	    width: 9rem;
+    height: 7rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+     border-radius: 50%;
+      cursor: grab;
+}           
+.body-part4{
+	display: flex;
+    flex-wrap: wrap;
+}
+                            /*completed  fourth  body part of css styling*/ 
+                             /*starting fifth  body part of css styling*/
+.body-part5-img1 {
+  position: relative;
+}
+.centered {
+      position: absolute;
+    top: 60%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  cursor: grab;
+}
+.body-part5-img1 img{
+	    width: 19rem;
+    height: 10rem;
+    padding-top: 3rem;
+    padding-left: 4.5rem;
+     cursor: grab;
+}
+.body-part5-img2 {
+  position: relative;
+}
+.centered-1 {
+      position: absolute;
+    top: 60%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  cursor: grab;
+}
+.body-part5-img2 img{
+	    width: 19rem;
+    height: 10rem;
+    padding-top: 3rem;
+    padding-left: 4.5rem;
+     cursor: grab;
+}
+.body-part5-img3{
+  position: relative;
+}
+.centered-2 {
+      position: absolute;
+    top: 60%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+     color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  cursor: grab;
+}
+.body-part5-img3 img{
+	    width: 19rem;
+    height: 10rem;
+    padding-top: 3rem;
+    padding-left: 4.5rem;
+     cursor: grab;
+}
+.body-part5{
+	display: flex;
+    flex-wrap: wrap;
+}
+                      /*completed  fifth  body part of css styling*/
+                      /*starting sixth  body part of css styling*/
+.heading-body-part6{
+	padding-left: 3.5rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    padding-top: 3rem;
+   text-shadow: 2px 2px 5px red;
+}
+.heading-body-part6-img1 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 4rem;
+     cursor: grab;
+}
+.heading-body-part6-img2 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.heading-body-part6-img3 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.heading-body-part6-img4 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.heading-body-part6-img5 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.heading-body-part6-img6 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.body-part6-inner{
+	display: flex;
+}
+.body-part6-1img-detail-1{
+	    padding-left: 4rem;
+    margin: auto;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-family: emoji;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  cursor: grab;
+}
+.body-part6-1img-detail-2{
+	    padding-left: 1rem;
+    margin: auto;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-family: emoji;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  cursor: grab;
+}
+                          /*completed sixth  body part of css styling*/
+                          /*starting seventh  body part of css styling*/
+.heading-body-part7{
+	padding-left: 3.5rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    padding-top: 3rem;
+   text-shadow: 2px 2px 5px red;
+}
+.heading-body-part7-img1 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 4rem;
+     cursor: grab;
+}
+.heading-body-part7-img2 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.heading-body-part7-img3 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.heading-body-part7-img4 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.heading-body-part7-img5 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.heading-body-part7-img6 img{
+	    width: 8rem;
+    height: 8rem;
+    padding-left: 1rem;
+     cursor: grab;
+}
+.body-part7-inner{
+	display: flex;
+}
+.body-part7-1img-detail-1{
+	    padding-left: 4rem;
+    margin: auto;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-family: emoji;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  cursor: grab;
+}
+.body-part7-1img-detail-2{
+	    padding-left: 1rem;
+    margin: auto;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-family: emoji;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  cursor: grab;
+}                          
+                      /*completed seventh  body part of css styling*/
+                          /*starting with aside body part of css styling*/
+.heading-aside-block  {
+	padding-left: 3.5rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    text-shadow: 3px 3px 10px white;
+  
+}
+.aside-block-drop-down{
+	padding-left: 7.5rem;
+    padding-top: 5.4rem;
+}
+
+.aside-block-inner{
+	display: flex;
+}
+.music-box{
+    padding-left: 4rem;
+}
+.music-box-info-img img{
+    width: 3rem;
+    height: 3rem;
+     cursor: grab;
+}
+.music-box-info-img{
+    display: flex;
+}
+.fa-heart{
+    padding-left: 7rem;
+    padding-top: 1rem;
+    cursor: grab;
+}
+.fa-heart:hover{
+    color: white;
+}
+.music-box-info-detail {
+    padding-left: 1rem;
+    letter-spacing: 2px;
+    font-family: emoji;
+  cursor: grab;
+}
+.music-box-info-detail:hover {
+   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+                       /*completed with aside body part of css styling*/
+                         /*starting with footer part of css styling*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background:  linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+   color: white;
+   text-align: center;
+}
+.footer-image img{
+    width: 3rem;
+    padding-top: 0.5rem;
+    display: table-row-group;
+    padding-left: 4.5rem;
+    padding-bottom: 0.5rem;
+}
+.footer-detail{
+    width: 16rem;
+    font-family: emoji;
+    letter-spacing: 0.1rem;
+     cursor: grab;
+}
+.footer-detail:hover{
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.footer-music{
+   padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+ audio{
+    width: 50rem;
+}
+.footer-image{
+    display: flex;
+}
